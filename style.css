@@ -155,14 +155,20 @@
         }
 
         .card:hover {
-            transform: translateY(-8px);
+            transform: translateY(-10px) scale(1.02);
             border-color: #60a5fa;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
         }
 
         .card-icon {
             font-size: 40px;
             margin-bottom: 20px;
+            transition: 0.3s;
         }
+
+        .card:hover .card-icon {
+    transform: scale(1.2) rotate(5deg);
+}
 
         .card h3 {
             font-size: 22px;
@@ -204,3 +210,19 @@
                 font-size: 17px;
             }
         }
+
+            @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content {
+    animation: fadeIn 1s ease-out;
+}
