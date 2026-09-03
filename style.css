@@ -236,11 +236,6 @@
 .staff-section {
     min-height: 100vh;
     padding: 140px 8% 80px;
-
-    background:
-        radial-gradient(circle at 20% 20%, #2563eb55, transparent 35%),
-        radial-gradient(circle at 80% 80%, #9333ea55, transparent 35%),
-        #0f172a;
 }
 
 .staff-header {
