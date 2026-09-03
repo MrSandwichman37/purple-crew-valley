@@ -10,7 +10,7 @@
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background: #0f172a;
+            background: #111827;
             color: white;
         }
 
@@ -76,7 +76,7 @@
         }
 
         .hero h1 span {
-            color: #60a5fa;
+            color: #22c55e;
         }
 
         .hero p {
@@ -102,7 +102,7 @@
         }
 
         .primary {
-            background: #2563eb;
+            background: #22c55e;
             color: white;
         }
 
