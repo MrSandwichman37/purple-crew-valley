@@ -227,3 +227,137 @@
 .hero-content {
     animation: fadeIn 1s ease-out;
 }
+
+/* =========================
+   STAFF
+   ========================= */
+
+.staff-section {
+    min-height: 100vh;
+    padding: 140px 8% 80px;
+
+    background:
+        radial-gradient(circle at 20% 20%, #2563eb55, transparent 35%),
+        radial-gradient(circle at 80% 80%, #9333ea55, transparent 35%),
+        #0f172a;
+}
+
+.staff-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.staff-header h1 {
+    font-size: clamp(45px, 7vw, 75px);
+    margin-bottom: 20px;
+}
+
+.staff-header h1 span {
+    color: #60a5fa;
+}
+
+.staff-header p {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+.staff-container {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.staff-card {
+    background: #1e293b;
+
+    border: 1px solid #334155;
+    border-radius: 20px;
+
+    padding: 40px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.staff-card:hover {
+    transform: translateY(-10px);
+    border-color: #60a5fa;
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.staff-avatar {
+    width: 90px;
+    height: 90px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 45px;
+
+    background: #0f172a;
+
+    border-radius: 50%;
+
+    border: 2px solid #334155;
+
+    transition: 0.3s;
+}
+
+.staff-card:hover .staff-avatar {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.staff-card h2 {
+    margin-bottom: 12px;
+}
+
+.staff-card p {
+    color: #94a3b8;
+
+    line-height: 1.6;
+
+    margin-top: 15px;
+}
+
+.staff-role {
+    display: inline-block;
+
+    padding: 7px 15px;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+/* ROLLER */
+
+.owner {
+    background: #92400e;
+    color: #fef3c7;
+}
+
+.co-owner {
+    background: #1e40af;
+    color: #dbeafe;
+}
+
+.admin {
+    background: #166534;
+    color: #dcfce7;
+}
+
+.moderator {
+    background: #6b21a8;
+    color: #f3e8ff;
+}
