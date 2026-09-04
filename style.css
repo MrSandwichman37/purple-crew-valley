@@ -10,8 +10,14 @@
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background: #bf00ff
-            color: white;
+    color: white;
+
+    background:
+        radial-gradient(circle at 20% 20%, #2563eb55, transparent 35%),
+        radial-gradient(circle at 80% 80%, #9333ea55, transparent 35%),
+        #0f172a;
+
+    background-attachment: fixed;
         }
 
         /* NAVIGATION */
@@ -60,10 +66,8 @@
             text-align: center;
             padding: 100px 20px;
 
-            background:
-                radial-gradient(circle at 20% 20%, #2563eb55, transparent 35%),
-                radial-gradient(circle at 80% 80%, #9333ea55, transparent 35%),
-                #0f172a;
+            background: transparent;
+
         }
 
 
