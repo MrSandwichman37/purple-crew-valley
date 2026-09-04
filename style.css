@@ -362,3 +362,16 @@
     color: #f3e8ff;
 }
 
+html,
+body {
+    min-height: 100%;
+    background:
+        radial-gradient(circle at 20% 20%, #2563eb55, transparent 35%),
+        radial-gradient(circle at 80% 80%, #9333ea55, transparent 35%),
+        #0f172a;
+    background-attachment: fixed;
+}
+
+section {
+    background: transparent;
+}
